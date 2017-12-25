@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// bootstrap-css -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel='stylesheet prefetch' href='css/kwgwmy.css'>
+    <link rel='stylesheet prefetch' href='css/jgrjew.css'>
+    <link rel='stylesheet prefetch' href='css/rrgkvw.css'>
+    <link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+    <link href="css/easy-responsive-tabs.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// css -->
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- //font-awesome icons -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+    <link href="css/login.css" rel='stylesheet' type='text/css' />
+
+</head>
+<body>
+<!-- contact -->
+<div class="contact-w3l" id="contact">
+    <div class="w3-head-all">
+        <h3><sup><img src="images/logo.png" alt="images"></sup>Take Message</h3>
+    </div>
+    <div class="container">
+        <div class="col-md-6 contact-agileits-w3layouts">
+            <div id="horizontalTab">
+                <ul class="resp-tabs-list">
+                    <li>
+                        <h6>管理留言</h6>
+                    </li>
+                    <li>
+                        <h6>注销登录</h6>
+                    </li>
+                </ul>
+                <div class="resp-tabs-container">
+
+                    <div class="tab2">
+
+                        <div class="agileits-social">
+                        </div>
+                        <iframe src="" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 regstr-r-w3-agileits">
+            <div class="form-bg-w3ls">
+                <h3 style="color:#000;" class="subhead-agileits white-w3ls"><sup><img src="images/logo.png" alt="images"></sup>Message Post</h3>
+                <form action="#" method="post">
+                    <textarea name="Message" placeholder="please input your message……" required="" style="border-color:#bd062a;background-color:#f93c64;"></textarea>
+                    <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+                        <a href="#" data-toggle="modal" data-target="#myModal4">实名提交</a>
+                        <a href="#" data-toggle="modal" data-target="#myModal4">匿名提交</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //contact -->
+
+<div class="w3l_footer">
+    <div class="container">
+        <!-- footer-button-info -->
+        <div class="footer-middle-agileinfo">
+            <div class="footer-button">
+
+                <h2>Copyright &copy; 1400310501段又嘉<sup><img src="images/logo.png" alt="images"></sup></h2>
+            </div>
+        </div>
+        <!-- footer-button-info -->
+    </div>
+</div
+        <!-- menu-js -->
+<script src="js/modernizr.js"></script>
+<script src="js/menu.js"></script>
+<!-- //menu-js -->
+
+<!-- flexisel -->
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 4,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint:480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint:640,
+                    visibleItems:2
+                },
+                tablet: {
+                    changePoint:768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+</script>
+<!-- //flexisel -->
+<!-- script for responsive tabs -->
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function (event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+
+<!-- //contact form -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+        */
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script src="js/SmoothScroll.min.js"></script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+<!-- start-smoth-scrolling -->
+<!-- smooth scrolling-bottom-to-top -->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

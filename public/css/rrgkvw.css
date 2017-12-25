@@ -1,0 +1,46 @@
+* {margin: 0; padding: 0;}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.wrapper img{
+  width: 100%;
+}
+
+canvas {
+	display: block;
+  position: absolute;
+  top: 0;  right: 0; 
+    z-index: 80;
+}
+
+.back{
+  position: absolute;
+  z-index: 70;
+  top: 0;
+  left: 0;
+}
+.front{
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+.cover{
+  background: #333;
+  height: 700px;
+  width: 100%;
+}
